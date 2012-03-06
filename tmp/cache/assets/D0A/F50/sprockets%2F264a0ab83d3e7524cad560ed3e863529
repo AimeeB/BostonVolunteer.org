@@ -1,0 +1,980 @@
+o: ActiveSupport::Cache::Entry	:@value"¶_{"content_type"text/css"
+class"ProcessedAsset"dependency_digest"%c3f18e85bf39ec64bbac33310374d214"
+mtime"2012-03-04T21:51:25-05:00"_version"%aa7d0db7619379e13b08335dee027df2"dependency_paths[{"
+mtime"2012-03-04T21:51:25-05:00"digest"%31c4672527fb1ba4ad6e43ceef3d02ac"	path",$root/app/assets/stylesheets/style.scss"digest"%0d5f3a9734bf4b99a6a433303c6927d4"required_paths[",$root/app/assets/stylesheets/style.scss"pathname",$root/app/assets/stylesheets/style.scss"logical_path"style.css"lengthi¦]"source"¦]/* 
+ * HTML5 âœ° Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling. 
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ *
+ * Detailed information about this CSS: h5bp.com/css
+ * 
+ * ==|== normalize ==========================================================
+ */
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/* line 19, ../../app/assets/stylesheets/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 20, ../../app/assets/stylesheets/style.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 21, ../../app/assets/stylesheets/style.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 22, ../../app/assets/stylesheets/style.scss */
+[hidden] {
+  display: none;
+}
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ * 2. Force vertical scrollbar in non-IE
+ * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+ */
+/* line 34, ../../app/assets/stylesheets/style.scss */
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 36, ../../app/assets/stylesheets/style.scss */
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+/* line 38, ../../app/assets/stylesheets/style.scss */
+body, button, input, select, textarea {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #fff;
+}
+
+/* 
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate
+ * Also: hot pink! (or customize the background color to match your design)
+ */
+/* line 46, ../../app/assets/stylesheets/style.scss */
+::-moz-selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 47, ../../app/assets/stylesheets/style.scss */
+::selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+/* line 54, ../../app/assets/stylesheets/style.scss */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* line 55, ../../app/assets/stylesheets/style.scss */
+a:visited {
+  color: #333;
+}
+
+/* line 56, ../../app/assets/stylesheets/style.scss */
+a:hover {
+  color: #06e;
+}
+
+/* line 57, ../../app/assets/stylesheets/style.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+/* line 60, ../../app/assets/stylesheets/style.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+/* line 66, ../../app/assets/stylesheets/style.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 68, ../../app/assets/stylesheets/style.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 70, ../../app/assets/stylesheets/style.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 72, ../../app/assets/stylesheets/style.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 74, ../../app/assets/stylesheets/style.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 76, ../../app/assets/stylesheets/style.scss */
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 78, ../../app/assets/stylesheets/style.scss */
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Redeclare monospace font family: h5bp.com/j */
+/* line 81, ../../app/assets/stylesheets/style.scss */
+pre, code, kbd, samp {
+  font-family: monospace, monospace;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* Improve readability of pre-formatted text in all browsers */
+/* line 84, ../../app/assets/stylesheets/style.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 86, ../../app/assets/stylesheets/style.scss */
+q {
+  quotes: none;
+}
+
+/* line 87, ../../app/assets/stylesheets/style.scss */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 89, ../../app/assets/stylesheets/style.scss */
+small {
+  font-size: 85%;
+}
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+/* line 92, ../../app/assets/stylesheets/style.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 93, ../../app/assets/stylesheets/style.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 94, ../../app/assets/stylesheets/style.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* =============================================================================
+   BV Typography
+   ========================================================================== */
+/* line 100, ../../app/assets/stylesheets/style.scss */
+h1, h2, h3, h4, h5 {
+  font-family: Populaire;
+  font-weight: normal;
+  margin: 0em;
+}
+
+/* line 106, ../../app/assets/stylesheets/style.scss */
+h1 {
+  font-size: 3.6em;
+  line-height: 1em;
+}
+
+/* line 110, ../../app/assets/stylesheets/style.scss */
+h2 {
+  font-size: 1.8em;
+  line-height: 1.3em;
+}
+
+/* line 114, ../../app/assets/stylesheets/style.scss */
+.twtr-widget p {
+  font-size: 1.33333333em;
+}
+
+/* line 117, ../../app/assets/stylesheets/style.scss */
+.small {
+  color: #333;
+  font-size: .6875em;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+/* line 126, ../../app/assets/stylesheets/style.scss */
+ul, ol {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+/* line 127, ../../app/assets/stylesheets/style.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 128, ../../app/assets/stylesheets/style.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/e 
+ */
+/* line 140, ../../app/assets/stylesheets/style.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+/*
+ * Correct overflow not hidden in IE9 
+ */
+/* line 146, ../../app/assets/stylesheets/style.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+/* line 153, ../../app/assets/stylesheets/style.scss */
+figure {
+  margin: 0;
+}
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+/* line 160, ../../app/assets/stylesheets/style.scss */
+form {
+  margin: 0;
+}
+
+/* line 161, ../../app/assets/stylesheets/style.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Indicate that 'label' will shift focus to the associated form element */
+/* line 164, ../../app/assets/stylesheets/style.scss */
+label {
+  cursor: pointer;
+}
+
+/* 
+ * 1. Correct color not inheriting in IE6/7/8/9 
+ * 2. Correct alignment displayed oddly in IE6/7 
+ */
+/* line 171, ../../app/assets/stylesheets/style.scss */
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+}
+
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+/* line 179, ../../app/assets/stylesheets/style.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ * 2. Correct inner spacing displayed oddly in IE6/7
+ */
+/* line 186, ../../app/assets/stylesheets/style.scss */
+button, input {
+  line-height: normal;
+  *overflow: visible;
+}
+
+/*
+ * Reintroduce inner spacing in 'table' to avoid overlap and whitespace issues in IE6/7
+ */
+/* line 192, ../../app/assets/stylesheets/style.scss */
+table button, table input {
+  *overflow: auto;
+}
+
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ */
+/* line 199, ../../app/assets/stylesheets/style.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/*
+ * Consistent box sizing and appearance
+ */
+/* line 205, ../../app/assets/stylesheets/style.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+}
+
+/* line 206, ../../app/assets/stylesheets/style.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 207, ../../app/assets/stylesheets/style.scss */
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* 
+ * Remove inner padding and border in FF3/4: h5bp.com/l 
+ */
+/* line 213, ../../app/assets/stylesheets/style.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* 
+ * 1. Remove default vertical scrollbar in IE6/7/8/9 
+ * 2. Allow only vertical resizing
+ */
+/* line 220, ../../app/assets/stylesheets/style.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/* Colors for form validity */
+/* line 224, ../../app/assets/stylesheets/style.scss */
+input:invalid, textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+/* line 231, ../../app/assets/stylesheets/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 232, ../../app/assets/stylesheets/style.scss */
+td {
+  vertical-align: top;
+}
+
+/* =============================================================================
+   Box Classes
+   ========================================================================== */
+/* line 238, ../../app/assets/stylesheets/style.scss */
+.box, .box-tagline, .box-nav, .box-nopadding {
+  -moz-box-shadow: 5px 5px 3px #888;
+  -webkit-box-shadow: 5px 5px 3px #888;
+  box-shadow: 5px 5px 3px #888;
+}
+
+/* line 243, ../../app/assets/stylesheets/style.scss */
+.box {
+  padding: 1em;
+}
+
+/* line 246, ../../app/assets/stylesheets/style.scss */
+.box-tagline {
+  padding: 1.4em;
+}
+
+/* line 249, ../../app/assets/stylesheets/style.scss */
+.box-nav {
+  padding: .6875em;
+}
+
+/* line 252, ../../app/assets/stylesheets/style.scss */
+.box-nopadding {
+  padding: 0em;
+}
+
+/* =============================================================================
+   Color Classes
+   ========================================================================== */
+/* line 259, ../../app/assets/stylesheets/style.scss */
+.blue {
+  background-color: #469;
+}
+
+/* line 263, ../../app/assets/stylesheets/style.scss */
+.yellow {
+  background-color: #fb0;
+}
+
+/* line 267, ../../app/assets/stylesheets/style.scss */
+.green {
+  background-color: #562;
+}
+
+/* =============================================================================
+Layout Classes 
+========================================================================== */
+/* line 275, ../../app/assets/stylesheets/style.scss */
+.bottom-padding {
+  margin-bottom: 1em;
+}
+
+/* line 279, ../../app/assets/stylesheets/style.scss */
+.right-padding {
+  margin-right: .5em;
+}
+
+/* line 283, ../../app/assets/stylesheets/style.scss */
+.left {
+  float: left;
+}
+
+/* line 287, ../../app/assets/stylesheets/style.scss */
+.right {
+  float: right;
+}
+
+/* line 290, ../../app/assets/stylesheets/style.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 293, ../../app/assets/stylesheets/style.scss */
+a.action-button {
+  color: white;
+}
+
+/* line 296, ../../app/assets/stylesheets/style.scss */
+.action-button {
+  background-color: #fb0;
+  line-height: .25em;
+  border: none;
+  font-family: Populaire;
+  padding: 0em .25em .2em;
+}
+
+/* line 303, ../../app/assets/stylesheets/style.scss */
+input.action-button {
+  font-size: 1.8em;
+  line-height: 0em;
+}
+
+/* line 307, ../../app/assets/stylesheets/style.scss */
+.action-button h2 {
+  line-height: 0em;
+  padding: .60em .25em .75em .25em;
+}
+
+/* line 312, ../../app/assets/stylesheets/style.scss */
+a.nav-link h2 {
+  color: #fff;
+  padding: 0.5em 0em;
+  text-align: center;
+  line-height: .8em;
+}
+
+/* =============================================================================
+  Layout
+  ========================================================================== */
+/* line 323, ../../app/assets/stylesheets/style.scss */
+header#top-header {
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  padding-top: 20px;
+  margin-bottom: 60px;
+  min-height: 120px;
+}
+/* line 331, ../../app/assets/stylesheets/style.scss */
+header#top-header div#logo h1 {
+  background: url("logo-med.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  text-indent: -9999px;
+  height: 112px;
+  width: 250px;
+}
+
+/* line 344, ../../app/assets/stylesheets/style.scss */
+aside#weekly-newsletter {
+  margin-top: -90px;
+}
+
+/* line 348, ../../app/assets/stylesheets/style.scss */
+hgroup#tagline {
+  position: relative;
+}
+/* line 351, ../../app/assets/stylesheets/style.scss */
+hgroup#tagline h1#tagline-1 {
+  margin: 0em;
+  line-height: .6em;
+}
+/* line 355, ../../app/assets/stylesheets/style.scss */
+hgroup#tagline h2#tagline-2 {
+  font-size: 7em;
+  font-family: 'PopulaireLight';
+  line-height: 0em;
+  margin-bottom: .55em;
+  margin-top: .9em;
+}
+/* line 362, ../../app/assets/stylesheets/style.scss */
+hgroup#tagline button.action-button {
+  position: absolute;
+  right: 1.4em;
+  bottom: 1.4em;
+}
+
+/* Navigation */
+/* line 372, ../../app/assets/stylesheets/style.scss */
+nav#main-nav h2 {
+  text-align: center;
+  padding: .25em;
+}
+/* line 375, ../../app/assets/stylesheets/style.scss */
+nav#main-nav h2 a {
+  color: white;
+}
+
+/* Homepage  */
+/* line 382, ../../app/assets/stylesheets/style.scss */
+#gallery-container {
+  padding: 30px 0px;
+}
+/* line 384, ../../app/assets/stylesheets/style.scss */
+#gallery-container #slides {
+  min-height: 400px;
+  position: relative;
+  /*background-color:#333;*/
+}
+/* line 388, ../../app/assets/stylesheets/style.scss */
+#gallery-container #slides img {
+  left: 50%;
+  max-width: 100%;
+}
+
+/* line 396, ../../app/assets/stylesheets/style.scss */
+aside#introduction h2#intro-headline {
+  line-height: 1.1em;
+  font-size: 2.8em;
+}
+/* line 400, ../../app/assets/stylesheets/style.scss */
+aside#introduction div.green.box {
+  min-height: 430px;
+}
+
+/* Past Events Page */
+/* line 409, ../../app/assets/stylesheets/style.scss */
+#past_events ul.gallery li {
+  display: none;
+}
+/* line 411, ../../app/assets/stylesheets/style.scss */
+#past_events ul.gallery li img {
+  max-width: 100%;
+}
+/* line 415, ../../app/assets/stylesheets/style.scss */
+#past_events ul.gallery li:first-child {
+  display: block;
+}
+
+/* About page */
+/* line 423, ../../app/assets/stylesheets/style.scss */
+#about-us p {
+  margin-left: 2em;
+}
+/* line 425, ../../app/assets/stylesheets/style.scss */
+#about-us section#about-special ul {
+  margin-left: 2em;
+}
+/* line 427, ../../app/assets/stylesheets/style.scss */
+#about-us section#about-special ul li {
+  margin-bottom: .5em;
+}
+
+/* Get involved page */
+/* line 436, ../../app/assets/stylesheets/style.scss */
+#get-involved img {
+  max-width: 100%;
+}
+
+/* ==|== primary styles =====================================================
+   Author: 
+   ========================================================================== */
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+/* For image replacement */
+/* line 466, ../../app/assets/stylesheets/style.scss */
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
+
+/* line 467, ../../app/assets/stylesheets/style.scss */
+.ir br {
+  display: none;
+}
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+/* line 470, ../../app/assets/stylesheets/style.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+/* line 473, ../../app/assets/stylesheets/style.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+/* line 476, ../../app/assets/stylesheets/style.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* Hide visually and from screenreaders, but maintain layout */
+/* line 479, ../../app/assets/stylesheets/style.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* Contain floats: h5bp.com/q */
+/* line 482, ../../app/assets/stylesheets/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 483, ../../app/assets/stylesheets/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 484, ../../app/assets/stylesheets/style.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* ==|== media queries ======================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   These override the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+}
+/* For headline */
+@media only screen and (min-width: 1576px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 13em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 1575px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 12em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 11em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 10.5em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 10em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 9.5em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 8.5em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 8em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 7em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 900px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 6.5em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 5.5em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 4em;
+    margin: 0em;
+  }
+}
+@media only screen and (max-width: 550px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 3.5em;
+    margin: 0em 0em;
+  }
+}
+@media only screen and (max-width: 420px) {
+  /* line 501, ../../app/assets/stylesheets/style.scss */
+  h1#tagline-1 {
+    font-size: 2.75em;
+    margin: 0em 0em;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  /* line 562, ../../app/assets/stylesheets/style.scss */
+  aside#introduction h2#intro-headline {
+    font-size: 2.2em;
+  }
+}
+/* 1300px */
+@media only screen and (max-width: 1100px) {
+  /* line 571, ../../app/assets/stylesheets/style.scss */
+  h1 {
+    font-size: 3em;
+  }
+
+  /* line 573, ../../app/assets/stylesheets/style.scss */
+  h2 {
+    font-size: 1.5em;
+  }
+
+  /* line 575, ../../app/assets/stylesheets/style.scss */
+  #gallery-container {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 1em;
+  }
+
+  /* line 581, ../../app/assets/stylesheets/style.scss */
+  aside#introduction {
+    width: 100%;
+    margin: 0px;
+  }
+  /* line 584, ../../app/assets/stylesheets/style.scss */
+  aside#introduction div.green.box {
+    min-height: 0px;
+  }
+}
+/* Media <1100px */
+@media only screen and (max-width: 850px) {
+  /* line 592, ../../app/assets/stylesheets/style.scss */
+  #gallery-container {
+    background: none;
+    box-shadow: none;
+  }
+}
+/* Media <850px */
+@media only screen and (max-width: 768px) {
+  /* line 599, ../../app/assets/stylesheets/style.scss */
+  #gallery-container {
+    display: none;
+  }
+}
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 609, ../../app/assets/stylesheets/style.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* Black prints faster: h5bp.com/s */
+  /* line 610, ../../app/assets/stylesheets/style.scss */
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 611, ../../app/assets/stylesheets/style.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 612, ../../app/assets/stylesheets/style.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 613, ../../app/assets/stylesheets/style.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* Don't show links for images, or javascript/internal links */
+  /* line 614, ../../app/assets/stylesheets/style.scss */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 615, ../../app/assets/stylesheets/style.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* h5bp.com/t */
+  /* line 616, ../../app/assets/stylesheets/style.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 617, ../../app/assets/stylesheets/style.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 619, ../../app/assets/stylesheets/style.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 620, ../../app/assets/stylesheets/style.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+:@expires_in0:@compressedF:@created_atf1330915886.925091 4±

@@ -1,0 +1,145 @@
+// Place all the styles related to the admin controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//@import "active_admin/base";
+//@import "active_admin/typography";
+//@import "active_admin/header";
+//@import "active_admin/forms";
+//@import "active_admin/components/comments";
+//@import "active_admin/components/flash_messages";
+//@import "active_admin/components/date_picker";
+//@import "active_admin/components/tables";
+//@import "active_admin/components/blank_slates";
+//@import "active_admin/components/breadcrumbs";
+//@import "active_admin/components/buttons";
+//@import "active_admin/components/grid";
+//@import "active_admin/components/links";
+//@import "active_admin/components/pagination";
+//@import "active_admin/components/panels";
+//@import "active_admin/components/columns";
+//@import "active_admin/components/scopes";
+//@import "active_admin/components/status_tags";
+//@import "active_admin/components/table_tools";
+//@import "active_admin/mixins/all";
+//@import "active_admin/mixins/buttons";
+//@import "active_admin/mixins/gradients";
+//@import "active_admin/mixins/icons";
+//@import "active_admin/mixins/reset";
+//@import "active_admin/mixins/rounded";
+//@import "active_admin/mixins/sections";
+//@import "active_admin/mixins/shadows";
+//@import "active_admin/mixins/typography";
+//@import "active_admin/mixins/utilities";
+//@import "active_admin/mixins/variables";
+//@import "active_admin/pages/dashboard";
+//@import "active_admin/pages/logged_out";
+//@import "active_admin/structure/footer";
+//@import "active_admin/structure/main_structure";
+//@import "active_admin/structure/title_bar";
+
+@mixin outer-margin {
+	padding:.5em 2em;
+}
+body {
+	margin:0px;
+	a {
+		text-decoration:none;
+	}
+}
+
+#active_admin_content {
+	@include outer-margin;
+	font-family:'Helvetica', 'Arial', sans-serif; 
+	font-size:12px;
+	ol, ul {
+		list-style-type:none;
+		padding:0px;
+		margin:0px;
+	}
+	fieldset {
+		border:none;
+	}
+	fieldset.inputs {
+		li {
+			clear:both;
+			width:15%;
+			input {
+				float:right;
+			}
+		}
+		
+	}
+	.buttons {
+		input[type='button'], input[type='submit'], input[type='reset'], input[type='file'] {
+		background: #ffebb5; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ffebb5 0%, #ffbb00 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffebb5), color-stop(100%,#ffbb00)); 
+		/* 		  Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ffebb5 0%,#ffbb00 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ffebb5 0%,#ffbb00 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ffebb5 0%,#ffbb00 100%); /* IE10+ */
+		background: linear-gradient(top,  #ffebb5 0%,#ffbb00 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffebb5', endColorstr='#ffbb00',GradientType=0 ); /* IE6-9 */
+		border:none;
+		padding:5px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	  }
+	}
+}
+body.logged_in {
+	font-family:'Helvetica', 'Arial', sans-serif; 
+	font-size:12px;
+	ol, ul {
+		list-style-type:none;
+		padding:0px;
+		margin:0px;
+	}
+	div#header {
+		@include outer-margin;
+		color:white;
+		height:3em;
+		background: #b5b5b5; /* Old browsers */
+		background: -moz-linear-gradient(top,  #b5b5b5 0%, #0e0e0e 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5b5b5), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #b5b5b5 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #b5b5b5 0%,#0e0e0e 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #b5b5b5 0%,#0e0e0e 100%); /* IE10+ */
+		background: linear-gradient(top,  #b5b5b5 0%,#0e0e0e 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b5b5', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+		p {
+			margin:0px;
+			margin-top:-10px;
+			span {
+				margin-right:10px;
+			}
+			a {
+				color:yellow;
+			}
+		}
+		h1 {
+			float:left;
+			margin:0em;
+		}
+		ul.header-item {
+			margin-left:100px;
+			margin-bottom:20px;
+			li {
+				float:left;
+				padding:10px;
+				a {
+					color:white;
+				}
+			}
+		}
+		#utility_nav {
+			float:right;
+		}
+	}
+	#title_bar {
+		@include outer-margin;
+		clear:both;
+	}
+}

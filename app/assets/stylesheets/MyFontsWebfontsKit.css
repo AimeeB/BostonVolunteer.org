@@ -1,0 +1,44 @@
+/* @license
+ * MyFonts Webfont Build ID 1939891, 2012-01-15T16:33:57-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Populaire Light by PintassilgoPrints
+ * URL: http://www.myfonts.com/fonts/pintassilgo/populaire/light/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: Populaire Regular by PintassilgoPrints
+ * URL: http://www.myfonts.com/fonts/pintassilgo/populaire/regular/
+ * Licensed pageviews: unspecified
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=1939891
+ * Webfonts copyright: By PintassilgoPrints, 2011. All rights reserved. www.pintassilgoprints.com
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+
+
+  
+ 
+ @font-face {
+  font-family: "PopulaireLight";
+  src: url(1D99B3_0_0.eot);
+  src: local("PopulaireLight"), local("PopulaireLight"), url(1D99B3_0_0.eot?#iefix) format("embedded-opentype"), url(1D99B3_0_0.woff) format("woff"), url(1D99B3_0_0.ttf) format("truetype"), url(1D99B3_0_0.svg#PopulaireLight) format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Populaire";
+  src: url(1D99B3_1_0.eot);
+  src: local("Populaire"), local("Populaire"), url(1D99B3_1_0.eot?#iefix) format("embedded-opentype"), url(1D99B3_1_0.woff) format("woff"), url(1D99B3_1_0.ttf) format("truetype"), url(1D99B3_1_0.svg#Populaire) format("svg");
+  font-weight: 900;
+  font-style: normal;
+}  
+ 

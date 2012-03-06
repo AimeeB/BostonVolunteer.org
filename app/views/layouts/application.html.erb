@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+	<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+	<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+	<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+	<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+	<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Boston Volunteers | Who Else Likes to Help Others?</title>
+	
+	
+  <%= stylesheet_link_tag    "style", :media => "all" %>
+  <%= stylesheet_link_tag    "reset/blog", :media => "all" %>
+  <%= stylesheet_link_tag    "MyFontsWebfontsKit", :media => "all" %>
+  <%= stylesheet_link_tag    "admin", :media => "all" %>
+  <%= stylesheet_link_tag    "bgstretcher", :media => "all" %>
+  <%= stylesheet_link_tag    "grid", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "libs/jquery-1.6.2", :media => "all" %>
+  <%= javascript_include_tag "libs/jquery-1.6.2.min", :media => "all" %>
+  <%= javascript_include_tag "libs/modernizr-2.0.6.min", :media => "all" %>
+  <%= javascript_include_tag    "bgstretcher", :media => "all" %>
+  <%= javascript_include_tag    "code.photoswipe-3.0.4", :media => "all" %>
+  <%= javascript_include_tag    "code.photoswipe-3.0.4.min", :media => "all" %>
+  <%= javascript_include_tag    "code.photoswipe.jquery-3.0.4", :media => "all" %>
+  <%= javascript_include_tag    "code.photoswipe.jquery-3.0.4.min", :media => "all" %>
+  <%= javascript_include_tag    "responsiveslides", :media => "all" %>
+
+
+  <%= csrf_meta_tags %>
+  
+  
+  <!-- Initialize bgStretcher -->
+<%= render 'bgStretcherInitialize.js', :content_type => 'application/js'%>	
+<%= render 'blueberryInitialize.js', :content_type => 'application/js'%>
+
+<script>
+  $(function () {
+  			
+  			$("#slides").responsiveSlides();
+  				    
+  });
+</script>
+
+
+</head>
+<body>
+	<header id="top-header" class="">
+		<div class="container_12" id="header-wrapper">
+		<div id="logo" role="logo"><h1>Boston Volunteers</h1></div>
+				
+<aside id="social-media-box" class="right">
+				<div id="twitter-row"><%=link_to image_tag("twitter.png"), ("https://twitter.com/#!/BostonVolunteer"), :class => 'left right-padding' %>
+					<%=link_to "Follow Boston Volunteers on Twitter!", ("https://twitter.com/#!/BostonVolunteer"), :class => 'small'  %>
+			 
+					<a href="https://twitter.com/share" class="twitter-share-button" data-text="Enjoy helping others? Learn how at BostonVounteer.org!" data-via="BostonVolunteer" data-size="small">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>	<!-- end twitter row -->
+					
+				<div class="clearfix"></div>
+			
+				<div id="facebook-row" class="">
+				<%=link_to image_tag("facebook.png"), ("https://www.facebook.com/BostonVolunteers"), :class => 'left' %>
+				<div id="fb-root" class="small left">
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+		
+			<div class="fb-like" data-href="https://www.facebook.com/BostonVolunteers" data-send="false" data-width="310px" 	 data-show-faces="false"></div>
+		
+				</div>
+			</div> <!-- end facebook row -->
+		
+			<div class="clearfix"></div>
+		
+			<%=link_to image_tag("meetup.png"), ("http://www.meetup.com/The-Boston-Volunteer-Meetup-Who-else-likes-to-help-others/"), :class => 'left right-padding' %>
+			<%=link_to "Join the Boston Volunteers Meetup!", ("http://www.meetup.com/The-Boston-Volunteer-Meetup-Who-else-likes-to-help-others/"), :class => 'small' %>
+			
+</aside>
+	<div class="clearfix bottom-padding"></div>		
+		
+		<!-- <aside id="weekly-newsletter" class="float-right">
+			<h2 style="color:#562">Newsletter</h2>
+			<form id="newsletter-signup">
+			<input class="text" type="text" value="Name" maxLength="40" name="Name">
+			<input class="text" type="text" value="Email" maxLength="40" name="Email">
+			<input id="submit" class="action-button" type="submit" value="Submit" name="Submit">
+			</form>
+		</aside> -->
+		</div> <!-- end header wrapper -->
+    </header>
+<div id="container" class="container_12">
+
+    <div id="main" role="main">
+    
+<%= render 'layouts/header' %>
+<%= yield %>
+<%= render 'layouts/footer' %>
+
+<script>
+ $(window).load(function() {
+	
+	var viewport = $('#slides').width();
+	var slides = $('#slides img');
+	var windowWidth = window.innerWidth;
+	
+	for ( var i in slides ) {
+		var width = slides[i].width;
+		var height = slides[i].height;
+		var marginLeft = -(width/2);
+		$(slides[i]).css('width',width);
+		$(slides[i]).css('margin-left',marginLeft);
+};
+	
+});
+</script>
+<style>
+
+</style>
+</body>
+</html>

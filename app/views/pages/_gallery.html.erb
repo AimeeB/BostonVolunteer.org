@@ -1,0 +1,12 @@
+<div id ="slides">
+		
+	<% @galleryimages = Dir.glob("app/assets/images/gallery-full/*") %>
+	   	
+		<% for image in @galleryimages %>
+				<%= image_tag(("#{image}").gsub("app/assets/images/", "")) %>
+		<% end %>
+
+</div>
+	
+	
+

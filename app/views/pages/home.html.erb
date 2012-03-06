@@ -1,0 +1,79 @@
+<div class="grid_9 alpha blue box" id="gallery-container">
+	<%= render 'gallery' %>
+	</div><!-- end box div -->	
+		<aside id="introduction" class="grid_3 omega">
+		<div class="green box">
+			<h2 id="intro-headline">With over 3,600 Bostonian Volunteers and growing rapidly,</h2> <p class="bottom-padding">the Boston Volunteers are one of Boston's most popular nonprofits. Your choices range from popular Habitat for Humanity events to cooking for Bostons veterans. There's something fun for you.</p><button class="action-button right green"><h2>Learn more >></h2></button><div class="clearfix"></div>
+			</div>
+		</aside>
+		
+		<div class="clearfix bottom-padding"></div>
+		
+		<section id="upcoming-events" class="grid_4 alpha">
+		<div class="blue box">
+			<h1>Upcoming Events</h1>
+			<div class="clearfix"></div>
+			<br />
+			<% @events = Event.all.to_a %>
+			<% @events[0..3].each do |event| %>
+			<h2><%= event.title %></h2>
+			<p>LOCATION: <%= event.location %></p>
+			<p>DATE: <%= event.date %></p>
+			<h2 class="right"><%= link_to "LEARN MORE >>", event.url, :class => "action-button yellow" %></h2>
+			<br />
+			<br />
+			<% end %>
+			</div>
+			</section>
+		
+		<section id="twitter-feed" class="grid_4">
+		<div class="yellow box">
+			<h1>The Latest</h1>
+			<div class="clearfix bottom-padding"></div>
+			<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: '100%',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#fb0',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#fb0',
+      color: '#ffffff',
+      links: '#562'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('BostonVolunteer').start();
+</script>
+			
+			</div>
+		</section>
+		
+		<section id="quotes" class="grid_4 omega">
+		<div class="green box">
+			<h1>Boston Volunteers say:</h1>
+			<div class="clearfix"></div>
+			<br />
+			<% @quotes = Quote.all.to_a %>
+			<% @quotes[0..3].each do |quote| %>
+			<h2><i>"<%= quote.content %>"</i></h2>
+			<p class="right">- <%= quote.name %></p>
+			<div class="clearfix"></div>
+			<% end %>
+			</div>
+		</section>
+		
+    </div>

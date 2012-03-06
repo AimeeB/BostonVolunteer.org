@@ -1,0 +1,58 @@
+<section id ="past_events" class="blue box">	
+	
+	<h1>Photo Gallery</h1>
+	<div class="clearfix bottom-padding"></div>
+	
+	<%= render 'photoSwipeInitialize.js', :content_type => 'application/js'%>
+
+	<ul id="Gallery" class="gallery grid_4 alpha">
+
+		<% @galleryimages = Dir.glob("app/assets/images/gallery-full/*") %>
+		<% @thumbimages = Dir.glob("app/assets/images/gallery-thumb/*") %>
+			<% for image in @galleryimages %>		 
+			<li class="">
+			<%= link_to image_tag(("#{@thumbimages[0]}").gsub("app/assets/images/", "")), html_escape("#{image}").gsub("app/assets/images/", "/assets/") %>
+			</li>
+			<% end %>		
+	</ul>
+	
+	<ul id="Gallery" class="gallery grid_4">	 	
+		<% @galleryimages = Dir.glob("app/assets/images/gallery-full/*") %>
+		<% @thumbimages = Dir.glob("app/assets/images/gallery-thumb/*") %>
+			<% for image in @galleryimages %>		 
+			<li class="">
+			<%= link_to image_tag(("#{@thumbimages[1]}").gsub("app/assets/images/", "")), html_escape("#{image}").gsub("app/assets/images/", "/assets/") %>
+			</li>
+			<% end %>		
+	</ul>
+	
+	<ul id="Gallery" class="gallery grid_4 omega">	 	
+		<% @galleryimages = Dir.glob("app/assets/images/gallery-full/*") %>
+		<% @thumbimages = Dir.glob("app/assets/images/gallery-thumb/*") %>
+			<% for image in @galleryimages %>		 
+			<li class="">
+			<%= link_to image_tag(("#{@thumbimages[2]}").gsub("app/assets/images/", "")), html_escape("#{image}").gsub("app/assets/images/", "/assets/") %>
+			</li>
+			<% end %>		
+	</ul>
+	
+	<div class="clearfix bottom-padding"></div>
+
+<h1>Past Events</h1>	
+<div class="clearfix bottom-padding"></div>
+	<% @pasts = Past.all.to_a %>
+	<% @pasts[0..3].each do |past| %>
+	<%= image_tag "#{past.photo}", :class => 'grid_6 alpha' %>
+	<article class="event-article grid_6 omgea">
+	<h2 class="left"><%= past.title %></h2>
+	<div class="clearfix"></div>
+	<p class="left"><%= past.desc %></p>
+	<div class="clearfix"></div>
+	<h2 class="right"><%= link_to "READ MORE >>", past.url, :class => "action-button yellow" %></h2>
+	</article>
+	
+	<div class="clearfix"></div>
+	<br />
+	<% end %>
+	<div class="clearfix"></div>
+</section>
