@@ -13,6 +13,10 @@ group :production do
   gem 'pg'
 end
 
+gem 'thin'
+
+gem 'eventmachine'
+
 gem 'omniauth'
 gem 'activeadmin'
 gem 'activemodel'
