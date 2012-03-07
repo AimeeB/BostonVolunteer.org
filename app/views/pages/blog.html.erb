@@ -1,4 +1,20 @@
-<h1>Pages#blog</h1>
-<p>Find me in app/views/pages/blog.html.erb</p>
+<div class="grid_12 alpha omega blue box" id="blog">
+<div class="extra-padding">
+	
+<% @posts = Post.all.to_a %>
+<% @posts.each do |post| %>
+<article class="blog-post">
+<h1><%= post.title %></h1>
+<div class="clearfix"></div>
+<%= simple_format(post.content) %></p>
+<div class="clearfix"></div>
+<%= post.created_at.strftime('%A, %B %d, %Y') %>
+</article>
+<div class="clearfix"></div>
+<br />
+<% end %>
+
+</div>
+</div>
 
 

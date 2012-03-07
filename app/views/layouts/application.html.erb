@@ -56,16 +56,16 @@
 		<div id="logo" role="logo"><h1>Boston Volunteers</h1></div>
 				
 <aside id="social-media-box" class="right">
-				<div id="twitter-row"><%=link_to image_tag("twitter.png"), ("https://twitter.com/#!/BostonVolunteer"), :class => 'left right-padding' %>
+	
+				<div id="twitter-row" class="social-media-snippet">
+				<%=link_to image_tag("twitter.png"), ("https://twitter.com/#!/BostonVolunteer"), :class => 'left right-padding' %>
 					<%=link_to "Follow Boston Volunteers on Twitter!", ("https://twitter.com/#!/BostonVolunteer"), :class => 'small'  %>
 			 
 					<a href="https://twitter.com/share" class="twitter-share-button" data-text="Enjoy helping others? Learn how at BostonVounteer.org!" data-via="BostonVolunteer" data-size="small">Tweet</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>	<!-- end twitter row -->
-					
-				<div class="clearfix"></div>
 			
-				<div id="facebook-row" class="">
+				<div id="facebook-row" class="social-media-snippet">
 				<%=link_to image_tag("facebook.png"), ("https://www.facebook.com/BostonVolunteers"), :class => 'left' %>
 				<div id="fb-root" class="small left">
 				<script>(function(d, s, id) {
@@ -80,11 +80,11 @@
 		
 				</div>
 			</div> <!-- end facebook row -->
-		
-			<div class="clearfix"></div>
-		
+			
+		<div id="meetup-row" class="social-media-snippet">
 			<%=link_to image_tag("meetup.png"), ("http://www.meetup.com/The-Boston-Volunteer-Meetup-Who-else-likes-to-help-others/"), :class => 'left right-padding' %>
 			<%=link_to "Join the Boston Volunteers Meetup!", ("http://www.meetup.com/The-Boston-Volunteer-Meetup-Who-else-likes-to-help-others/"), :class => 'small' %>
+			</div> <!-- end meetup row -->
 			
 </aside>
 	<div class="clearfix bottom-padding"></div>		
