@@ -5,7 +5,6 @@ class CreatePasts < ActiveRecord::Migration
       t.string :photo
       t.string :desc
       t.string :url
-      t.file :photo
 
       t.timestamps
     end
