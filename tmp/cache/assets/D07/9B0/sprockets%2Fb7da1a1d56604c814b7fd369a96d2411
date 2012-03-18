@@ -1,6 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@value"Ln{"required_assets_digest"%e648285e800129debcfade3604b3574b"content_type"text/css"
-class"BundledAsset"
-mtime"2012-03-05T21:07:02-05:00"_version"%aa7d0db7619379e13b08335dee027df2"digest"%63a2fd00a3140333ae5d64803e3c41b5"pathname",$root/app/assets/stylesheets/style.scss"logical_path"style.css"lengthim"source"m/* 
+o: ActiveSupport::Cache::Entry	:@value"o{"content_type"text/css"
+class"ProcessedAsset"dependency_digest"%e648285e800129debcfade3604b3574b"
+mtime"2012-03-05T21:26:03-05:00"_version"%aa7d0db7619379e13b08335dee027df2"dependency_paths[{"
+mtime"2012-03-05T21:26:03-05:00"digest"%d1375e8088acd3e099788643779576d9"	path",$root/app/assets/stylesheets/style.scss"digest"%63a2fd00a3140333ae5d64803e3c41b5"required_paths[",$root/app/assets/stylesheets/style.scss"pathname",$root/app/assets/stylesheets/style.scss"logical_path"style.css"lengthim"source"m/* 
  * HTML5 âœ° Boilerplate
  *
  * What follows is the result of much research on cross-browser styling. 
@@ -1130,4 +1131,4 @@ aside#introduction div.green.box {
     page-break-after: avoid;
   }
 }
-:@expires_in0:@compressedF:@created_atf1330999624.7162941 ×Ã
+:@expires_in0:@compressedF:@created_atf1331165460.9420741 Jñ
