@@ -21,22 +21,12 @@
   <%= stylesheet_link_tag    "admin", :media => "all" %>
   <%= stylesheet_link_tag    "grid", :media => "all" %>
   <%= javascript_include_tag "application" %>
-  <%= javascript_include_tag "libs/jquery-1.6.2", :media => "all" %>
-  <%= javascript_include_tag "libs/jquery-1.6.2.min", :media => "all" %>
-  <%= javascript_include_tag "libs/modernizr-2.0.6.min", :media => "all" %>
-  <%= javascript_include_tag    "code.photoswipe-3.0.4", :media => "all" %>
-  <%= javascript_include_tag    "code.photoswipe-3.0.4.min", :media => "all" %>
-  <%= javascript_include_tag    "code.photoswipe.jquery-3.0.4", :media => "all" %>
-  <%= javascript_include_tag    "code.photoswipe.jquery-3.0.4.min", :media => "all" %>
-  <%= javascript_include_tag    "responsiveslides", :media => "all" %>
-
+  <%= javascript_include_tag "responsiveslides" %>
 
   <%= csrf_meta_tags %>
   
   
   <!-- Initialize bgStretcher -->
-<%= render 'bgStretcherInitialize.js', :content_type => 'application/js'%>	
-<%= render 'blueberryInitialize.js', :content_type => 'application/js'%>
 
 <script>
   $(function () {

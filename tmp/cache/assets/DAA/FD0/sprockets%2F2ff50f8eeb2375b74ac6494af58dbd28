@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@value"Ln{"required_assets_digest"%e648285e800129debcfade3604b3574b"content_type"text/css"
+o: ActiveSupport::Cache::Entry	:@value"Co{"required_assets_digest"%e868aed8436c9454147de28adb283b02"content_type"text/css"
 class"BundledAsset"
-mtime"2012-03-05T21:07:02-05:00"_version"%aa7d0db7619379e13b08335dee027df2"digest"%63a2fd00a3140333ae5d64803e3c41b5"pathname",$root/app/assets/stylesheets/style.scss"logical_path"style.css"lengthim"source"m/* 
+mtime"2012-03-18T17:13:56-04:00"_version"%aa7d0db7619379e13b08335dee027df2"digest"%16b6c686ac5a634a491a6c120b7cff92"pathname",$root/app/assets/stylesheets/style.scss"logical_path"style.css"lengthiüm"source"üm/* 
  * HTML5 âœ° Boilerplate
  *
  * What follows is the result of much research on cross-browser styling. 
@@ -699,11 +699,20 @@ aside#introduction div.green.box {
 /* ==|== primary styles =====================================================
    Author: 
    ========================================================================== */
+/* line 475, ../../app/assets/stylesheets/style.scss */
+html {
+  background: url(boston.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */
 /* For image replacement */
-/* line 495, ../../app/assets/stylesheets/style.scss */
+/* line 501, ../../app/assets/stylesheets/style.scss */
 .ir {
   display: block;
   border: 0;
@@ -715,20 +724,20 @@ aside#introduction div.green.box {
   direction: ltr;
 }
 
-/* line 496, ../../app/assets/stylesheets/style.scss */
+/* line 502, ../../app/assets/stylesheets/style.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 499, ../../app/assets/stylesheets/style.scss */
+/* line 505, ../../app/assets/stylesheets/style.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 502, ../../app/assets/stylesheets/style.scss */
+/* line 508, ../../app/assets/stylesheets/style.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -741,7 +750,7 @@ aside#introduction div.green.box {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 505, ../../app/assets/stylesheets/style.scss */
+/* line 511, ../../app/assets/stylesheets/style.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -752,24 +761,24 @@ aside#introduction div.green.box {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 508, ../../app/assets/stylesheets/style.scss */
+/* line 514, ../../app/assets/stylesheets/style.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: h5bp.com/q */
-/* line 511, ../../app/assets/stylesheets/style.scss */
+/* line 517, ../../app/assets/stylesheets/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 512, ../../app/assets/stylesheets/style.scss */
+/* line 518, ../../app/assets/stylesheets/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 513, ../../app/assets/stylesheets/style.scss */
+/* line 519, ../../app/assets/stylesheets/style.scss */
 .clearfix {
   zoom: 1;
 }
@@ -784,98 +793,98 @@ aside#introduction div.green.box {
 }
 /* For headline */
 @media only screen and (min-width: 1576px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 13em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 1575px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 12em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 1450px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 11em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 1400px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 10.5em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 1350px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 10em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 1300px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 9.5em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 1200px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 8.5em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 1100px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 8em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 1000px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 7em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 900px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 6.5em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 800px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 5.5em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 4em;
     margin: 0em;
   }
 }
 @media only screen and (max-width: 550px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 3.5em;
     margin: 0em 0em;
   }
 }
 @media only screen and (max-width: 420px) {
-  /* line 530, ../../app/assets/stylesheets/style.scss */
+  /* line 536, ../../app/assets/stylesheets/style.scss */
   h1#tagline-1 {
     font-size: 2.75em;
     margin: 0em 0em;
@@ -883,98 +892,98 @@ aside#introduction div.green.box {
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 589, ../../app/assets/stylesheets/style.scss */
+  /* line 595, ../../app/assets/stylesheets/style.scss */
   hgroup#tagline h2#tagline-2 {
     font-size: 6em;
   }
 }
 @media only screen and (max-width: 1000px) {
-  /* line 589, ../../app/assets/stylesheets/style.scss */
+  /* line 595, ../../app/assets/stylesheets/style.scss */
   hgroup#tagline h2#tagline-2 {
     font-size: 5em;
   }
 }
 @media only screen and (max-width: 900px) {
-  /* line 589, ../../app/assets/stylesheets/style.scss */
+  /* line 595, ../../app/assets/stylesheets/style.scss */
   hgroup#tagline h2#tagline-2 {
     font-size: 4.5em;
   }
 }
 @media only screen and (max-width: 800px) {
-  /* line 589, ../../app/assets/stylesheets/style.scss */
+  /* line 595, ../../app/assets/stylesheets/style.scss */
   hgroup#tagline h2#tagline-2 {
     font-size: 4em;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 589, ../../app/assets/stylesheets/style.scss */
+  /* line 595, ../../app/assets/stylesheets/style.scss */
   hgroup#tagline h2#tagline-2 {
     font-size: 3em;
   }
 }
 @media only screen and (max-width: 550px) {
-  /* line 589, ../../app/assets/stylesheets/style.scss */
+  /* line 595, ../../app/assets/stylesheets/style.scss */
   hgroup#tagline h2#tagline-2 {
     font-size: 2.5em;
   }
 }
 @media only screen and (max-width: 420px) {
-  /* line 589, ../../app/assets/stylesheets/style.scss */
+  /* line 595, ../../app/assets/stylesheets/style.scss */
   hgroup#tagline h2#tagline-2 {
     font-size: 1.75em;
   }
 }
 
 @media only screen and (max-width: 1300px) {
-  /* line 616, ../../app/assets/stylesheets/style.scss */
+  /* line 622, ../../app/assets/stylesheets/style.scss */
   aside#introduction h2#intro-headline {
     font-size: 2.2em;
   }
 }
 /* 1300px */
 @media only screen and (max-width: 1200px) {
-  /* line 625, ../../app/assets/stylesheets/style.scss */
+  /* line 631, ../../app/assets/stylesheets/style.scss */
   aside#social-media-box {
     width: 380px;
     top: 20px;
   }
-  /* line 628, ../../app/assets/stylesheets/style.scss */
+  /* line 634, ../../app/assets/stylesheets/style.scss */
   aside#social-media-box .social-media-snippet {
     width: 100%;
   }
 }
 /* 1300px */
 @media only screen and (max-width: 1100px) {
-  /* line 637, ../../app/assets/stylesheets/style.scss */
+  /* line 643, ../../app/assets/stylesheets/style.scss */
   h1 {
     font-size: 3em;
   }
 
-  /* line 639, ../../app/assets/stylesheets/style.scss */
+  /* line 645, ../../app/assets/stylesheets/style.scss */
   h2 {
     font-size: 1.5em;
   }
 
-  /* line 641, ../../app/assets/stylesheets/style.scss */
+  /* line 647, ../../app/assets/stylesheets/style.scss */
   #gallery-container {
     width: 100%;
     margin: 0px;
     margin-bottom: 1em;
   }
 
-  /* line 647, ../../app/assets/stylesheets/style.scss */
+  /* line 653, ../../app/assets/stylesheets/style.scss */
   aside#introduction {
     width: 100%;
     margin: 0px;
   }
-  /* line 650, ../../app/assets/stylesheets/style.scss */
+  /* line 656, ../../app/assets/stylesheets/style.scss */
   aside#introduction div.green.box {
     min-height: 0px;
   }
 }
 /* Media <1100px */
 @media only screen and (max-width: 850px) {
-  /* line 658, ../../app/assets/stylesheets/style.scss */
+  /* line 664, ../../app/assets/stylesheets/style.scss */
   #gallery-container {
     background: none;
     box-shadow: none;
@@ -982,77 +991,77 @@ aside#introduction div.green.box {
 }
 /* Media <850px */
 @media only screen and (max-width: 768px) {
-  /* line 665, ../../app/assets/stylesheets/style.scss */
+  /* line 671, ../../app/assets/stylesheets/style.scss */
   #gallery-container {
     display: none;
   }
 
-  /* line 672, ../../app/assets/stylesheets/style.scss */
+  /* line 678, ../../app/assets/stylesheets/style.scss */
   #main-nav ul li.grid_2 {
     width: 32%;
     margin-right: 2%;
     margin-left: 0px;
     margin-top: 2%;
   }
-  /* line 678, ../../app/assets/stylesheets/style.scss */
+  /* line 684, ../../app/assets/stylesheets/style.scss */
   #main-nav ul li:nth-child(3), #main-nav ul li:nth-child(6) {
     margin-right: 0px;
   }
 
-  /* line 685, ../../app/assets/stylesheets/style.scss */
+  /* line 691, ../../app/assets/stylesheets/style.scss */
   aside#social-media-box {
     width: 130px;
     visibility: hidden;
   }
-  /* line 688, ../../app/assets/stylesheets/style.scss */
+  /* line 694, ../../app/assets/stylesheets/style.scss */
   aside#social-media-box div.social-media-snippet {
     width: 40px;
     float: right;
   }
-  /* line 693, ../../app/assets/stylesheets/style.scss */
+  /* line 699, ../../app/assets/stylesheets/style.scss */
   aside#social-media-box #twitter-row img {
     margin-right: 10px;
   }
-  /* line 695, ../../app/assets/stylesheets/style.scss */
+  /* line 701, ../../app/assets/stylesheets/style.scss */
   aside#social-media-box img {
     visibility: visible;
   }
 
-  /* line 698, ../../app/assets/stylesheets/style.scss */
+  /* line 704, ../../app/assets/stylesheets/style.scss */
   #upcoming-events {
     width: 100%;
     margin: 0px;
   }
 
-  /* line 703, ../../app/assets/stylesheets/style.scss */
+  /* line 709, ../../app/assets/stylesheets/style.scss */
   #twitter-feed, #quotes {
     width: 49%;
     margin: 0px;
     margin-top: 2%;
   }
 
-  /* line 709, ../../app/assets/stylesheets/style.scss */
+  /* line 715, ../../app/assets/stylesheets/style.scss */
   #twitter-feed {
     margin-right: 2%;
   }
 }
 /* @media 768px */
 @media only screen and (max-width: 480px) {
-  /* line 717, ../../app/assets/stylesheets/style.scss */
+  /* line 723, ../../app/assets/stylesheets/style.scss */
   header#top-header {
     min-height: 90px;
   }
-  /* line 719, ../../app/assets/stylesheets/style.scss */
+  /* line 725, ../../app/assets/stylesheets/style.scss */
   header#top-header div#logo h1 {
     background: url("logo-sm.png") no-repeat;
   }
 
-  /* line 724, ../../app/assets/stylesheets/style.scss */
+  /* line 730, ../../app/assets/stylesheets/style.scss */
   #twitter-feed, #quotes {
     width: 100%;
   }
 
-  /* line 728, ../../app/assets/stylesheets/style.scss */
+  /* line 734, ../../app/assets/stylesheets/style.scss */
   .action-button h2 {
     font-size: 1.2em;
   }
@@ -1062,7 +1071,7 @@ aside#introduction div.green.box {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 740, ../../app/assets/stylesheets/style.scss */
+  /* line 746, ../../app/assets/stylesheets/style.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -1072,45 +1081,45 @@ aside#introduction div.green.box {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 741, ../../app/assets/stylesheets/style.scss */
+  /* line 747, ../../app/assets/stylesheets/style.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 742, ../../app/assets/stylesheets/style.scss */
+  /* line 748, ../../app/assets/stylesheets/style.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 743, ../../app/assets/stylesheets/style.scss */
+  /* line 749, ../../app/assets/stylesheets/style.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 744, ../../app/assets/stylesheets/style.scss */
+  /* line 750, ../../app/assets/stylesheets/style.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 745, ../../app/assets/stylesheets/style.scss */
+  /* line 751, ../../app/assets/stylesheets/style.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 746, ../../app/assets/stylesheets/style.scss */
+  /* line 752, ../../app/assets/stylesheets/style.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 747, ../../app/assets/stylesheets/style.scss */
+  /* line 753, ../../app/assets/stylesheets/style.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 748, ../../app/assets/stylesheets/style.scss */
+  /* line 754, ../../app/assets/stylesheets/style.scss */
   img {
     max-width: 100% !important;
   }
@@ -1119,15 +1128,15 @@ aside#introduction div.green.box {
     margin: 0.5cm;
 }
 
-  /* line 750, ../../app/assets/stylesheets/style.scss */
+  /* line 756, ../../app/assets/stylesheets/style.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 751, ../../app/assets/stylesheets/style.scss */
+  /* line 757, ../../app/assets/stylesheets/style.scss */
   h2, h3 {
     page-break-after: avoid;
   }
 }
-:@expires_in0:@compressedF:@created_atf1330999624.7152181 Æ"
+:@expires_in0:@compressedF:@created_atf1332105250.40938 3H
