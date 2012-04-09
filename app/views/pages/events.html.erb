@@ -1,2 +1,16 @@
-<h1>Pages#events</h1>
-<p>Find me in app/views/pages/events.html.erb</p>
+<div class="grid_12 alpha omega blue box" id="blog">
+<div class="extra-padding">
+	
+<% @events = Event.all.to_a %>
+<% @events.each do |event| %>
+<article class="upcoming-event">
+<h1><%= event.title %></h1>
+
+<%= event.date.strftime('%A, %B %d, %Y') %>
+</article>
+<div class="clearfix"></div>
+<br />
+<% end %>
+
+</div>
+</div>

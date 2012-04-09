@@ -1,6 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@value"ç,{"required_assets_digest"%96bff03fed592549f7ee942ae085ce72"content_type"application/javascript"
-class"BundledAsset"
-mtime"2011-11-14T06:21:13-05:00"_version"%aa7d0db7619379e13b08335dee027df2"digest"%2f525ed4cf094810372ca234007e70be"pathname"A$root/app/assets/javascripts/code.photoswipe.jquery-3.0.4.js"logical_path"$code.photoswipe.jquery-3.0.4.js"lengthie+"source"e+// Copyright (c) 2011 by Code Computerlove (http://www.codecomputerlove.com)
+o: ActiveSupport::Cache::Entry	:@value"Ý-{"content_type"application/javascript"
+class"ProcessedAsset"dependency_digest"%1f737887191b472e99ec40d873acc9f8"
+mtime"2012-03-26T20:49:57-04:00"_version"%aa7d0db7619379e13b08335dee027df2"dependency_paths[{"
+mtime"2012-03-26T20:49:57-04:00"digest"%ac586167187cabef8eca629a34958291"	path"A$root/app/assets/javascripts/code.photoswipe.jquery-3.0.4.js"digest"%2dda3df5036524e84099badd6d07d9f1"required_paths["A$root/app/assets/javascripts/code.photoswipe.jquery-3.0.4.js"pathname"A$root/app/assets/javascripts/code.photoswipe.jquery-3.0.4.js"logical_path"$code.photoswipe.jquery-3.0.4.js"lengthih+"source"h+// Copyright (c) 2011 by Code Computerlove (http://www.codecomputerlove.com)
 // Licensed under the MIT license
 // version: 3.0.4
 
@@ -1205,9 +1206,9 @@ mtime"2011-11-14T06:21:13-05:00"_version"%aa7d0db7619379e13b08335dee027df2"di
 			 */
 			fadeIn: function(el, speed, callback, timingFunction, opacity){
 				
-				opacity = Util.coalesce(opacity, 1);
+				opacity = Util.coalesce(opacity, .8);
 				if (opacity <= 0){
-					opacity = 1;
+					opacity = .8;
 				}
 				
 				if (speed <= 0){
@@ -1220,7 +1221,7 @@ mtime"2011-11-14T06:21:13-05:00"_version"%aa7d0db7619379e13b08335dee027df2"di
 				
 				var currentOpacity = Util.DOM.getStyle(el, 'opacity');
 				
-				if (currentOpacity >= 1){
+				if (currentOpacity >= .8){
 					Util.DOM.setStyle(el, 'opacity', 0);
 				}
 				
@@ -6424,4 +6425,4 @@ mtime"2011-11-14T06:21:13-05:00"_version"%aa7d0db7619379e13b08335dee027df2"di
 	window.Code.PhotoSwipe.UILayer,
 	window.Code.PhotoSwipe.ZoomPanRotate
 ));
-:@expires_in0:@compressedF:@created_atf1329698157.2113731 ‡#
+:@expires_in0:@compressedF:@created_atf1332809405.4901061 ]æ

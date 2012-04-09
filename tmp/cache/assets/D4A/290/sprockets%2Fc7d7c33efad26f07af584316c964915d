@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@value"¹M{"content_type"application/javascript"
-class"ProcessedAsset"dependency_digest"%7274143ad33233c6a8eda7b2bdb38f6b"
-mtime"2011-11-14T06:21:13-05:00"_version"%aa7d0db7619379e13b08335dee027df2"dependency_paths[{"
-mtime"2011-11-14T06:21:13-05:00"digest"%1bf7c41384fa166c65da0e09e2a8a6c0"	path":$root/app/assets/javascripts/code.photoswipe-3.0.4.js"digest"%10428e40b34253e78a2f6bf1cd77048c"required_paths[":$root/app/assets/javascripts/code.photoswipe-3.0.4.js"pathname":$root/app/assets/javascripts/code.photoswipe-3.0.4.js"logical_path"code.photoswipe-3.0.4.js"lengthi`K"source"`K// Copyright (c) 2011 by Code Computerlove (http://www.codecomputerlove.com)
+o: ActiveSupport::Cache::Entry	:@value"»M{"content_type"application/javascript"
+class"ProcessedAsset"dependency_digest"%7efaccb2fb642a31d9ed90e95be40402"
+mtime"2012-03-26T20:37:03-04:00"_version"%aa7d0db7619379e13b08335dee027df2"dependency_paths[{"
+mtime"2012-03-26T20:37:03-04:00"digest"%5089f4916b7aefe1a25e2891c45662c4"	path":$root/app/assets/javascripts/code.photoswipe-3.0.4.js"digest"%0a0aa6730f2e9f69fa1823d7bd5b7821"required_paths[":$root/app/assets/javascripts/code.photoswipe-3.0.4.js"pathname":$root/app/assets/javascripts/code.photoswipe-3.0.4.js"logical_path"code.photoswipe-3.0.4.js"lengthibK"source"bK// Copyright (c) 2011 by Code Computerlove (http://www.codecomputerlove.com)
 // Licensed under the MIT license
 // version: 3.0.4
 
@@ -1472,9 +1472,9 @@ mtime"2011-11-14T06:21:13-05:00"digest"%1bf7c41384fa166c65da0e09e2a8a6c0"	path
 			 */
 			fadeIn: function(el, speed, callback, timingFunction, opacity){
 				
-				opacity = Util.coalesce(opacity, 1);
+				opacity = Util.coalesce(opacity, .8);
 				if (opacity <= 0){
-					opacity = 1;
+					opacity = .8;
 				}
 				
 				if (speed <= 0){
@@ -6691,4 +6691,4 @@ mtime"2011-11-14T06:21:13-05:00"digest"%1bf7c41384fa166c65da0e09e2a8a6c0"	path
 	window.Code.PhotoSwipe.UILayer,
 	window.Code.PhotoSwipe.ZoomPanRotate
 ));
-:@expires_in0:@compressedF:@created_atf1329696040.529351 àã
+:@expires_in0:@compressedF:@created_atf1332808629.8919849 H

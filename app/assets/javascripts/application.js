@@ -15,3 +15,5 @@
 //= require code.photoswipe-3.0.4.min
 //= require code.photoswipe.jquery-3.0.4
 //= require code.photoswipe.jquery-3.0.4.min
+//= require scrollTo
+//= require blog

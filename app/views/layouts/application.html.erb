@@ -15,11 +15,7 @@
   <title>Boston Volunteers | Who Else Likes to Help Others?</title>
 	
 	
-  <%= stylesheet_link_tag    "style", :media => "all" %>
-  <%= stylesheet_link_tag    "reset/blog", :media => "all" %>
-  <%= stylesheet_link_tag    "MyFontsWebfontsKit", :media => "all" %>
-  <%= stylesheet_link_tag    "admin", :media => "all" %>
-  <%= stylesheet_link_tag    "grid", :media => "all" %>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= javascript_include_tag "responsiveslides" %>
 
@@ -91,8 +87,17 @@
 
     <div id="main" role="main">
     
-<%= render 'layouts/header' %>
-<%= yield %>
+		<%= render 'layouts/header' %>
+
+		<%= yield %>
+
+	<div class="clearfix bottom-padding">
+	</div>
+
+	</div> <!-- end of main div -->
+
+</div> <!--! end of #container -->
+
 <%= render 'layouts/footer' %>
 
 <script>
@@ -112,8 +117,4 @@
 	
 });
 </script>
-<style>
 
-</style>
-</body>
-</html>

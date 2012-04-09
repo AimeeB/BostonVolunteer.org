@@ -1,32 +1,67 @@
 <div class="grid_12 alpha omega blue box" id="about-us">
-<div class="extra-padding">	
-<h1>About Us</h1>
-<p>Boston Volunteers is one of Boston's most popular nonprofits. Founded the day after Christmas in 2008, the Boston Volunteer is growing rapidly.</p> 
+	<div class="extra-padding">	
+		
+		<nav class="sub-page-nav">
+			<a href="#about" class="action-button yellow">ABOUT</a>
+			<a href="#history" class="action-button yellowx">HISTORY</a>
+			<a href="#contact-form" class="action-button yellow">CONTACT US</a>
+		</nav>
+		
+		<section id="about">
+			<h1>About Us</h1>
+			<p>Boston Volunteers is one of Boston's most popular nonprofits. Founded the day after Christmas in 2008, the Boston Volunteer is growing rapidly.</p> 
 
-<p>The Boston Volunteers is a great opportunity for anyone interested in volunteering at any time.</p>
-<br />
-<h1 class="">What makes the Boston Volunteers different?</h1>
-<br />
-<section id="about-special" class="bottom-padding">
-	<ul>
-		<li><h2>There's No commitment.</h2> 
-		Join our meetup and feel free to attend as many or as few events as works for you.</li>
-		<li><h2>There's no hassle.</h2> 
-		Boston Volunteers handles all the organization and logistics of volunteering so you can focus on helping.</li> 
-		<li>
-		<h2>The focus is on helping.</h2>
-		You choose whether you want to lead or just participate.<br />
-		You decide when there a Boston Volunteer event you want to promote.<br />
-		With no hassle, no commitment volunteer opportunities in your community on almost every day of the week, Boston Volunteers celebrates easy and convenient volunteer opportunities for you. 
-		</li>
-		<li><h2>It's great way to be a part of and broaden your community and social network!</h2>
-		After most events we enjoy popular local restaurants - You will meet interesting new people who share your values<br /> 
-		You will discover lots of popular local restaurants. After most events most of us will connect on Facebook and/or LinkedIn.</li>
-	<ul>
-</section>
-<br />
-<h1>The Boston Volunteers</h1>
-<h2>Big enough to Deliver, small enough to care</h2>
-Learn more: www.BostonVolunteer.org
-</div>
+			<p>The Boston Volunteers is a great opportunity for anyone interested in volunteering at any time.</p>
+			<br />
+			<h1 class="">What makes the Boston Volunteers different?</h1>
+			<section id="about-special" class="bottom-padding">
+				<ul>
+					<li><h2>There's No commitment.</h2> 
+					Join our meetup and feel free to attend as many or as few events as works for you.</li>
+					<li><h2>There's no hassle.</h2> 
+					Boston Volunteers handles all the organization and logistics of volunteering so you can focus on helping.</li> 
+					<li>
+					<h2>The focus is on helping.</h2>
+					You choose whether you want to lead or just participate.<br />
+					You decide when there a Boston Volunteer event you want to promote.<br />
+					With no hassle, no commitment volunteer opportunities in your community on almost every day of the week, Boston Volunteers celebrates easy and convenient volunteer opportunities for you. 
+					</li>
+					<li><h2>It's great way to be a part of and broaden your community and social network!</h2>
+					After most events we enjoy popular local restaurants - You will meet interesting new people who share your values<br /> 
+					You will discover lots of popular local restaurants. After most events most of us will connect on Facebook and/or LinkedIn.</li>
+				<ul>
+			</section>
+			<br />
+			<h1>The Boston Volunteers</h1>
+			<h2>Big enough to Deliver, small enough to care</h2>
+			Learn more: www.BostonVolunteer.org
+		</section>
+		
+		<div class="clearfix bottom-padding"></div>
+		
+		<section id="history">
+			<h1>History</h1>
+			<p>The Boston Volunteers were born the day after Christmas, 2008. I was living in Providence at the time. I remember visiting Boston as a young kid, awe-inspired by the tall glistening skyscrapers, the story of Harvard and MIT, and the passion of fellow Red Sox fans. I decided to move to Boston. </p>
+
+			<p>Moving to Boston, as many people do, I was seeking an easy way to give back. Discouraged, even disgusted, that it was so hard to find volunteer projects that complemented my busy work schedule, I decided to initiate my own. I talked with a girl, a friend about it, she laughed. The next day BostonVolunteer.org went live. Decide and do. Why wait until New Years? </p>
+
+			<p>Our first Meetup was in the small glass windows foyer in the front room of Coolidge Corner's Panera Bread. Before I moved to Boston I was shy and timid. Don't you know a kid who never raised his hand in class? Imagine when more than forty five Bostonians showed up. Most older than I. I didn't know what I was doing.  The people at Panera got upset, there were Boston Volunteers sitting and standing. Blocking the entrance. People help people. We sat around in a circle. Introduced ourselves. </p>
+		<p>	I asked "what were some of your life-changing volunteer experiences", "What's the next step", "Can you help?" 
+			Several people stood up. </p>
+
+			<p>I remember explicitly this one young lady Monica. She passionately lead many events with us. Told many of her friends about "you need to discover how it feels", and led and led. She has since moved to Richmond and asked me "What do you think about me initiating my own Richmond Volunteer Meetup?". What do you think was my answer? </p>
+
+			<p>As we are progressing towards becoming your Boston nonprofit we recently built a board, made entirely of leaders from your communities. We believe that, as a nonprofit, we will be able to help more Bostonians.  We believe in better. We can't do it alone. We need you now.</p>
+		</section>
+		
+		<div class="clearfix bottom-padding"></div>
+		
+		<section id="contact-form">
+			<h1>Contact Us</h1>
+			<% @message = Message.new %>
+			<%= render :partial => 'contact/new', :locals => { :message => @message } %>
+		</section>
+		
+		
+	</div>
 </div>

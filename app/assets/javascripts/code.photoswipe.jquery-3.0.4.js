@@ -1203,9 +1203,9 @@
 			 */
 			fadeIn: function(el, speed, callback, timingFunction, opacity){
 				
-				opacity = Util.coalesce(opacity, 1);
+				opacity = Util.coalesce(opacity, .8);
 				if (opacity <= 0){
-					opacity = 1;
+					opacity = .8;
 				}
 				
 				if (speed <= 0){
@@ -1218,7 +1218,7 @@
 				
 				var currentOpacity = Util.DOM.getStyle(el, 'opacity');
 				
-				if (currentOpacity >= 1){
+				if (currentOpacity >= .8){
 					Util.DOM.setStyle(el, 'opacity', 0);
 				}
 				

@@ -1,17 +1,26 @@
-<div class="grid_12 alpha omega blue box" id="blog">
+<div class="grid_12 alpha omega yellow box" id="blog">
 <div class="extra-padding">
 	
 <% @posts = Post.all.to_a %>
 <% @posts.each do |post| %>
-<article class="blog-post">
-<h1><%= post.title %></h1>
-<div class="clearfix"></div>
-<%= simple_format(post.content) %></p>
-<div class="clearfix"></div>
-<%= post.created_at.strftime('%A, %B %d, %Y') %>
-</article>
-<div class="clearfix"></div>
-<br />
+  <article class="blog-post">
+  <h1><%= post.title %></h1>
+  <div class="clearfix"></div>
+    <div class="intro-paragraph">
+      <%= simple_format(post.content) %>
+    </div>
+    <div class="article-content">
+      <%= simple_format(post.content) %>
+    </div>
+  <div class="clearfix"></div>
+  <%= post.created_at.strftime('%A, %B %d, %Y') %>
+  
+  <button class="action-button right"><h2>Read more >></h2></button>
+    
+  </article>
+  <div class="clearfix"></div>
+
+  <br />
 <% end %>
 
 </div>

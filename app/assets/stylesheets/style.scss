@@ -100,6 +100,7 @@ sub { bottom: -0.25em; }
    font-family: Populaire;
    font-weight:normal;
    margin:0em;
+		padding-bottom:.3em;
    }
    
    h1 {
@@ -110,6 +111,10 @@ sub { bottom: -0.25em; }
    font-size: 1.8em;
    line-height:1.3em;
    }
+  p {
+	padding-bottom:1em;
+  }
+
    .twtr-widget p {
 	font-size:1.33333333em;
    }
@@ -374,10 +379,10 @@ header#top-header {
    
    hgroup#tagline {
    		position:relative;
-		
 		   h1#tagline-1 {
 			   margin: 0em;
 			   line-height:.6em;
+				 padding:0em;
    			}
 		   h2#tagline-2 {
 			   font-size:7em;
@@ -385,6 +390,7 @@ header#top-header {
 			   line-height:0em;
 			   margin-bottom:.55em;
 			   margin-top:.9em;
+			   padding:0em;
 		   }  
 		button.action-button {
 			position:absolute;
@@ -466,6 +472,71 @@ aside#introduction {
 	}
 }
 
+/* Contact Form */
+
+#contact-form {
+	form { width: 66%; }
+	.field {
+		margin-bottom:10px;
+		label {
+			float:left;
+			width:80px;
+		}
+		input {
+			color:#333;
+		}
+		textarea {
+			width:100%;
+			color:#333;
+		}
+	}
+	input[type="submit"] {
+		-webkit-appearance: none;
+		border:none;
+		background:none;
+	}
+}
+
+
+/* Subpage nav */
+
+nav.sub-page-nav {
+	float:right;
+	a {
+		font-size:1.8em;
+		margin-left:.25em;
+	}		
+}
+
+/* Dynamic Blog Styles */
+
+article.blog-post {
+  color:#333;
+  h1 {
+    &:hover {
+      cursor:pointer;
+    }
+  }
+  div.intro-paragraph {
+    p {
+      display: none;
+      &:first-child {
+        display:block;
+      }
+    }
+  }
+  div.article-content {
+    display:none;
+    p {
+      &:first-child {
+        display:none;
+      }
+    }
+  }
+  button.action-button {
+    background:#562;
+  }
+}
 
 /* ==|== primary styles =====================================================
    Author: 

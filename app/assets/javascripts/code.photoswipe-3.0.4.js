@@ -1469,9 +1469,9 @@
 			 */
 			fadeIn: function(el, speed, callback, timingFunction, opacity){
 				
-				opacity = Util.coalesce(opacity, 1);
+				opacity = Util.coalesce(opacity, .8);
 				if (opacity <= 0){
-					opacity = 1;
+					opacity = .8;
 				}
 				
 				if (speed <= 0){
