@@ -63,9 +63,14 @@ body {
 	fieldset.inputs {
 		li {
 			clear:both;
-			width:15%;
+			width:40%;
+			label {
+			  width:30%;
+			  margin-right:5%;
+			}
 			input {
 				float:right;
+				width:60%;
 			}
 		}
 		
@@ -138,8 +143,15 @@ body.logged_in {
 			float:right;
 		}
 	}
-	#title_bar {
+	#title_bar, .flashes, #footer {
 		@include outer-margin;
 		clear:both;
 	}
+}
+table {
+  text-align:left;
+  th, td { 
+    padding: 5px; 
+    border:1px solid #333;
+    }
 }

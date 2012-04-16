@@ -50,9 +50,9 @@ body, button, input, select, textarea { font-family: 'Helvetica', 'Arial', sans-
    Links
    ========================================================================== */
 
-a { color: #333; text-decoration:none;}
-a:visited { color: #333; }
-a:hover { color: #06e; }
+a { color: #fff; text-decoration:none;}
+a:visited { color: #fff; }
+a:hover { color: #888; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
@@ -261,15 +261,15 @@ td { vertical-align: top; }
    ========================================================================== */
    
    .blue {
-	  background-color: #469;
+	  background-color: #283891;
    }
    
    .yellow {
-	  background-color: #fb0;
+	  background-color: #FB0;
    }
    
    .green {
-	  background-color: #562;
+	  background-color: #577600;
    }
    
    /* =============================================================================
@@ -339,36 +339,50 @@ header#top-header {
 	background-color:white;
 	padding-top:15px;
 	margin-bottom:80px;
-	min-height:120px;
+	min-height:145px;
 		div#logo {
+		  margin-top:-5px;
 			h1 {
-		    background:url('logo-med.png');
+  			background:url('logo.png');
    			background-repeat:no-repeat;
    			position:absolute;
-			text-indent:-9999px;
-			height:112px;
-			width:250px;
+  			text-indent:-9999px;
+  			height:142px;
+  			width:260px;
 			}
 		}
    }   
-   div#logo h1 {
-   }
    
 	 aside#social-media-box {
 		font-weight:bold;
 		position:absolute;
-		top:180px;
+		top:10px;
 		right:10%;
 		div.social-media-snippet {
 			float:left;
+			font-size:14px;
 			#facebook {
 				span.connect_widget_connected_text {
 					font-weight:bold;
 					}
 			}
 		}
+		#facebook-row{
+		  a {
+		    font-size:10px;
+		    margin-right:5px;
+		    vertical-align:text-bottom;
+		    color:#333;
+		  }
+		  div {
+		    margin-top:1px;
+		  }
+		}
 		#twitter-row {
-			margin-right:-15px;
+		  a {
+		    vertical-align:text-bottom;
+		    color:#333;
+		  }
 		}
 		
 	}	
@@ -419,8 +433,8 @@ header#top-header {
 		position:relative;
 		/*background-color:#333;*/
 		img {
+			margin-left:-300px;
 			left:50%;
-			max-width:100%;
 			}	 
 	}
 }
@@ -538,6 +552,23 @@ article.blog-post {
   }
 }
 
+
+/* FOOTER */
+
+#footer-wrapper {
+  margin:0% 0% 2% 8%;
+  #footer-logo {
+    width:30%;
+    float:left;
+    img {
+      max-width:100%;
+    }
+  }
+  #footer-content {
+    float:right;
+    text-align:right;
+  }
+}
 /* ==|== primary styles =====================================================
    Author: 
    ========================================================================== */
@@ -697,16 +728,8 @@ hgroup#tagline h2#tagline-2 {
 } /* 1300px */
 
 @media only screen and (max-width: 1200px)  { 
-
-	aside#social-media-box {
-		width:380px;
-		top:20px;
-		.social-media-snippet {
-			width:100%;
-		}
-	}
 		
-} /* 1300px */
+} /* 1200px */
 
 @media only screen and (max-width: 1100px)  {
 	
@@ -768,6 +791,9 @@ hgroup#tagline h2#tagline-2 {
 		#twitter-row {
 			img { margin-right: 10px; }
 		}
+		#facebook-row {
+		  .fb-like { display:none; }
+		}
 		img { visibility: visible; }
 	}
 	
@@ -792,9 +818,11 @@ hgroup#tagline h2#tagline-2 {
 
 	header#top-header {
 		min-height:90px;
-		div#logo h1 {
-			background:	url("logo-sm.png") no-repeat;		
-			}
+		div#logo {
+  		h1 {
+  			background:	url("logo-sm.png") no-repeat;		
+  			}
+		}
 	}
 
 	#twitter-feed, #quotes {

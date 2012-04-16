@@ -20,19 +20,29 @@ body.ps-active *, div.ps-active *
 { 
 	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
 	display: none;
-	padding:20px 0px;
+	padding:0px 0px;
+	margin-top:10px;
 }
+
 body.ps-active *:focus, div.ps-active *:focus 
 { 
 	outline: 0; 
 }
 
+.ps-active img {
+	box-shadow: 0 0 25px #111;
+	-webkit-box-shadow: 0 0 25px #111;
+	-moz-box-shadow: 0 0 25px #111;
+}
 
 /* Document overlay */
 div.ps-document-overlay 
 {
-	background-color: #fff;
-	opacity:.8;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	z-index: 1000;
 }
 
 
