@@ -16,9 +16,9 @@
 			<br />
 			<% @events = Event.all.to_a %>
 			<% @events[0..3].each do |event| %>
-			<h2><%= link_to event.title, event.url %></h2>
+			<h2><%= link_to event.name, event.url %></h2>
 			<p>LOCATION: <% if event.location != '' %> <%= event.location %> <% else %> TBD <% end %>
-			<br />DATE: <%= event.datetime %></p>
+			<br />DATE: <%= event.date %></p>
 			<h2 class="right"><%= link_to "LEARN MORE >>", event.url, :class => "action-button yellow" %></h2>
 			<br />
 			<br />

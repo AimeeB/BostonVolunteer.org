@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120416224859) do
+ActiveRecord::Schema.define(:version => 20120421145911) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -46,13 +46,11 @@ ActiveRecord::Schema.define(:version => 20120416224859) do
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
 
   create_table "events", :force => true do |t|
-    t.string   "title"
-    t.string   "location"
-    t.time     "date"
-    t.string   "url"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.string   "datetime"
+    t.string "name"
+    t.string "date"
+    t.text   "desc"
+    t.string "location"
+    t.string "url"
   end
 
   create_table "past_events", :force => true do |t|
