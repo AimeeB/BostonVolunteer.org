@@ -6,5 +6,11 @@ ActiveAdmin.register AdminUser do
       end
       f.buttons
     end
+    
+    after_create { |admin| admin.send_reset_password_instructions }
+
+    def password_required?
+      new_record? ? false : super
+    end
   
 end
