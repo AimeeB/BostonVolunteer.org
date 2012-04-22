@@ -63,15 +63,15 @@ module Blog
     config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
       :port                 => 587,
-      :domain               => "bostonvolunteer.org",
-      :user_name            => "aimee@bostonvolunteer.org",
+      :domain               => "bostonvolunteer.herokuapp.com",
+      :user_name            => "aimee@bostonvolunteer.herokuapp.com",
       :password             => "a1r2c3b4",
       :authentication       => :plain,
       :enable_starttls_auto => true
     }
 
     config.action_mailer.default_url_options = {
-      :host => "bostonvolunteer.org"
+      :host => "bostonvolunteer.herokuapp.com"
     }
   end
 end
