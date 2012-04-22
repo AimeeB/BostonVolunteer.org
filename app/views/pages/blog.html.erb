@@ -5,6 +5,7 @@
 <% @posts.each do |post| %>
   <article class="blog-post">
   <h1><%= post.title %></h1>
+  <h2>By: <%= post.name %></h2>
   <div class="clearfix"></div>
     <div class="intro-paragraph">
       <%= simple_format(post.content) %>
