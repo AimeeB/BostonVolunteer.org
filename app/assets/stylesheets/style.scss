@@ -412,6 +412,9 @@ header#top-header {
    			bottom:1.4em;
 		} 
 	}
+	.twtr-tweet {
+	  margin-bottom:25px;
+	}
       
 /* Navigation */
 
@@ -421,6 +424,8 @@ header#top-header {
 			padding:.25em;
 			a {
 				color:white;
+				width:100%; 
+				display:block; 
 			}
 		}
 	}
@@ -806,6 +811,7 @@ hgroup#tagline h2#tagline-2 {
 		width:49%;
 		margin:0px;
 		margin-top:2%;
+		
 	}
 	
 	#twitter-feed {
