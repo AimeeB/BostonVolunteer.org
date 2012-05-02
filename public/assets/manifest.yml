@@ -34,7 +34,6 @@ gallery-full/hugsAndHope3.jpeg: gallery-full/hugsAndHope3-77d2af5d64156afd6c8890
 gallery-full/hugsAndHope4.jpeg: gallery-full/hugsAndHope4-afd3504e0853dfa62b782e50e900cbfc.jpeg
 gallery-full/hugsAndHope5.jpeg: gallery-full/hugsAndHope5-405cda7cafb0d11ce0ef60e1e128b049.jpeg
 gallery-full/patriots1.jpeg: gallery-full/patriots1-ebaab678758519740968867b9afffc92.jpeg
-gallery-full/servathon1.jpeg: gallery-full/servathon1-b2e58baa2a5ddf3449b595be1753f72e.jpeg
 gallery-full/servathon2.jpeg: gallery-full/servathon2-0033ce5d9361ed60c1234d3e38341470.jpeg
 gallery-full/servathon3.jpeg: gallery-full/servathon3-53b5df56b782a16d91e07e5b85eaae6a.jpeg
 gallery-full/servathon4.jpeg: gallery-full/servathon4-7ff0b4f4783f79a79d6c920b9294f208.jpeg
@@ -63,7 +62,7 @@ twittericon.png: twittericon-c855043b9fe61e870112119fe1090c65.png
 active_admin.js: active_admin-e3e52e72b70b1b200ef3ffd3b47b3f3e.js
 application.js: application-0fd31d31dd961ee07ca83b8782c4531a.js
 active_admin.css: active_admin-6ce985db781520da8820d3f85b543307.css
-application.css: application-1155ac281c4d8d92742133c7ad9e328d.css
+application.css: application-fb1360b490215dfc5e2220f0a7fbcd6d.css
 active_admin/admin_notes_icon.png: active_admin/admin_notes_icon-6eb45caa96d965a96dd65eba4ba136df.png
 active_admin/datepicker/datepicker-header-bg.png: active_admin/datepicker/datepicker-header-bg-d0905bcf45dbdc6ebd8a0f886465e2d5.png
 active_admin/datepicker/datepicker-input-icon.png: active_admin/datepicker/datepicker-input-icon-615b6bb25bb1b0d6e8f2688b336e65c9.png
