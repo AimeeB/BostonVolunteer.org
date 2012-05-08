@@ -17,3 +17,4 @@
 //= require code.photoswipe.jquery-3.0.4.min
 //= require scrollTo
 //= require blog
+//= require hover-text
