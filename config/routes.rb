@@ -2,6 +2,8 @@ Blog::Application.routes.draw do
   get "admin/past_events"
 
   get "pages/get_involved"
+  
+  get "pages/donate"
 
   get "pages/past_events"
 

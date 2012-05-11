@@ -8,4 +8,7 @@ class PagesController < ApplicationController
   def events
   end
   
+  def donate
+  end
+  
 end
